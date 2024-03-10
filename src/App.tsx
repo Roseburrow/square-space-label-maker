@@ -1,23 +1,10 @@
-
-import UploadIcon from './assets/upload_icon.png';
-
 import "./App.scss";
+import LabelList from "./components/LabelList";
 
 const App = () => {
 	return (
 		<div className="label-page">
-			<div className="label-list">
-                <div className="label-header">
-                    <div>Labels</div>
-                    <div className='icon-container'>
-                        <img 
-                            className='upload-icon'
-                            src={UploadIcon}
-                        />
-                    </div>
-                </div>
-            </div>
-
+            <LabelList />
             <div className="label-preview">
 
             </div>
