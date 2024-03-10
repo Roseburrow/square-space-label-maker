@@ -1,0 +1,36 @@
+.label-page {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(227, 223, 223);
+    height: 100vh;
+    width: 100vw;
+}
+
+.label-list {
+    border-right: dashed 2px black;
+}
+
+.label-header {
+    border-bottom: dashed 2px black;
+    height: 55px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+
+    .icon-container {
+        height: 50px;
+        width: 50px;
+
+        .upload-icon {
+            height: 100%;
+            width: 100%;
+
+            cursor: pointer;
+        }
+    }
+}
+
+.label-preview {
+}
